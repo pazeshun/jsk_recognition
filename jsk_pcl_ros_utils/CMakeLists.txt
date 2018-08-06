@@ -178,6 +178,8 @@ jsk_pcl_util_nodelet(src/polygon_array_wrapper_nodelet.cpp
   "jsk_pcl_utils/PolygonArrayWrapper" "polygon_array_wrapper")
 jsk_pcl_util_nodelet(src/polygon_array_unwrapper_nodelet.cpp
   "jsk_pcl_utils/PolygonArrayUnwrapper" "polygon_array_unwrapper")
+jsk_pcl_util_nodelet(src/extract_sub_polygon_array_nodelet.cpp
+  "jsk_pcl_utils/ExtractSubPolygonArray" "extract_sub_polygon_array")
 jsk_pcl_util_nodelet(src/colorize_distance_from_plane_nodelet.cpp
   "jsk_pcl_utils/ColorizeDistanceFromPlane" "colorize_distance_from_plane")
 jsk_pcl_util_nodelet(src/colorize_height_2d_mapping_nodelet.cpp

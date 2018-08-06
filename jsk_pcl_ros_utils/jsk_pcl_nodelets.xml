@@ -144,6 +144,9 @@
   <class name="jsk_pcl_utils/PolygonArrayUnwrapper" type="jsk_pcl_ros_utils::PolygonArrayUnwrapper"
          base_class_type="nodelet::Nodelet">
   </class>
+  <class name="jsk_pcl_utils/ExtractSubPolygonArray" type="jsk_pcl_ros_utils::ExtractSubPolygonArray"
+         base_class_type="nodelet::Nodelet">
+  </class>
   <class name="jsk_pcl_utils/PolygonAppender" type="jsk_pcl_ros_utils::PolygonAppender"
          base_class_type="nodelet::Nodelet">
     <description>append jsk_pcl_ros/PolygonArray </description>
